@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 1. change the title and description for each post -->
+<title>title of the post, waterprint.</title>
+<meta name="description" content="one sentence about this post.">
+<link rel="icon" href="images/waterprint_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header wrap">
+  <a class="logo" href="index.html" aria-label="waterprint, home"><img src="images/waterprint_logo.png" alt="waterprint"></a>
+  <nav class="nav" aria-label="main">
+    <a href="musings.html" aria-current="page">musings</a>
+    <a href="photos.html">photos</a>
+    <a href="bookshelf.html">bookshelf</a>
+    <a href="philosophy.html">philosophy</a>
+  </nav>
+</header>
+
+<main class="page wrap">
+  <article class="post">
+    <a class="back" href="musings.html">back to musings</a>
+
+    <!-- 2. the title -->
+    <h1 class="post-title">title of the post</h1>
+
+    <!-- 3. optional opening line. delete this paragraph if you don't want one -->
+    <p class="post-lead blank">a sentence or two that opens the piece.</p>
+
+    <!-- 4. optional opening photo. delete the <span class="ph"> and add
+         <img src="images/your-photo.jpg" alt="describe the photo"> inside the frame.
+         change aspect-ratio to fit the photo (3/2 landscape, 4/5 portrait).
+         delete the whole <figure> if the post has no picture. -->
+    <figure class="post-figure">
+      <div class="frame" style="aspect-ratio:3/2"><span class="ph">photo</span></div>
+      <figcaption>a caption for the photo.</figcaption>
+    </figure>
+
+    <!-- 5. the writing. one <p> per paragraph -->
+    <div class="post-body">
+      <p class="blank">the first paragraph goes here.</p>
+      <p class="blank">the second paragraph goes here.</p>
+
+      <!-- optional section heading -->
+      <h2 class="blank">a heading</h2>
+
+      <p class="blank">more writing. a <a href="#">link</a> looks like this.</p>
+
+      <!-- optional pull quote -->
+      <blockquote class="blank">a line worth pulling out.</blockquote>
+
+      <p class="blank">the last paragraph goes here.</p>
+    </div>
+
+    <!-- 6. the date goes at the end of the post -->
+    <p class="post-end">written month year</p>
+
+    <!-- 7. optional links to the posts before and after this one.
+         delete either <a> if there isn't one -->
+    <nav class="post-nav" aria-label="more musings">
+      <a class="prev" href="#">previous post</a>
+      <a class="next" href="#">next post</a>
+    </nav>
+  </article>
+</main>
+
+<footer class="site-footer wrap">© 2026 waterprint</footer>
+
+</body>
+</html>
